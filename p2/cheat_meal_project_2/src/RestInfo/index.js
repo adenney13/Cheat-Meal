@@ -3,11 +3,10 @@ import RestName from './RestName'
 import Parameters from './Parameters'
 
 class RestInfo extends Component {
-
 	render(){
 		return(
 			<div>
-				<RestName />
+				<RestName onChange={this.props.onChange}/>
 				<Parameters />
 			</div>
 		)

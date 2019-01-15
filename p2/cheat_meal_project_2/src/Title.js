@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import RestName from './RestInfo/RestName.js'
+
 
 class Title extends Component {
 	render() {

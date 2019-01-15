@@ -17,18 +17,32 @@ class App extends Component {
 			protein: [],
 			carbs: []
 		}
+		this.handleInput = this.handleInput.bind(this)
 	}
 
+	handleInput (evt){
+		this.setState({
+			title: evt.target.value
+		})
+	}
 
-
-  render() {
+  	render() {
   	
   
     return (
     	<div className="App">
-    		<Title className='title' title={this.state.title} />
-    		<ViewScreen className='view-screen' />
-    		<RestInfo className='rest-info' />
+    		<Title
+    			className='title' 
+    			title={this.state.title} 
+    			onChange={this.handleInput}
+    		/>
+    		<ViewScreen 
+    			className='view-screen' 
+    		/>
+    		<RestInfo 
+    			className='rest-info' 
+    			onChange={this.handleInput}
+    		/>
    		</div>
     )
   }
