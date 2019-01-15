@@ -23,11 +23,11 @@ Love fast food? Want to make sure your cheat meal fits in with your diet? Well, 
 
 ## Wireframes
 
-Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe.
+https://cloudinary.com/console/media_library/folders/all/Project%202%20WireFrames
 
 ## Priority Matrix
 
-Include a full list of features that have been prioritized based on the `Time and Importance` Matix.  
+https://cloudinary.com/console/media_library/folders/all/Project%202%20Priority%20Matrix
 
 ### MVP/PostMVP - 5min
 
@@ -36,16 +36,21 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 #### SAMPLE.....
 #### MVP 
 
-- Find and use external api 
-- Render data on page in a list
+-Title Component 
+- RestInfo Component
+-Paramaters and RestName Components in RestInfo Component
+-View Screen Component
+-Fetch API Data, use Parameters
+-Render view scream with image/applicable food items
+-Title component changes when RestName is chosen
 
 #### PostMVP 
 
-- Add data to favorites section
+-Multiple restaurants
 
 ## React Architectural Design
 
-Define the the React components and the architectural design of your app.
+https://cloudinary.com/console/media_library/folders/all/Project%202%20Architecture
 
 #### [SAMPLE FROM A MAP BASED PROJECT](https://res.cloudinary.com/dvjtpejbw/image/upload/v1540221204/20181022_111216.jpg)
 
