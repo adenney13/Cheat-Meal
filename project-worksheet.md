@@ -8,8 +8,8 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Jan 14| Project Description | Incomplete
-|Jan 15| Wireframes / Priority Matrix / Functional Components | Incomplete
+|Jan 14| Project Description | Complete
+|Jan 15| Wireframes / Priority Matrix / Functional Components | Complete
 |Jan 15| Core Application Structure (HTML, CSS, etc.) | Incomplete
 |Jan 16| Pseudocode / actual code | Incomplete
 |Jan 16| Initial Clickable Model  | Incomplete
@@ -80,7 +80,8 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Build out form in Parameters | H | 2hrs| N/A|
 | Fetch API Data and pass down to components with parameters| H | 5hrs| N/A|
 | Render results on view screen| H |3hrs|N/A|
-| Total | H | 15hrs | N/A | 
+| Styling | H | 3hrs | N/A |
+| Total | H | 18hrs | N/A | 
 
 ## Helper Functions
 Helper functions should be generic enought that they can be reused in other applications. Use this section to document all helper functions that fall into this category.
