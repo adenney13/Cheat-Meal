@@ -82,7 +82,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Render results on view screen| H |3hrs|N/A|
 | Styling | H | 3hrs | N/A |
 | Move info from JSON to API| H | 2hrs| N/A|
-| Total | H | 18hrs | N/A | 
+| Total | H | 20hrs | N/A | 
 
 ## Helper Functions
 Helper functions should be generic enought that they can be reused in other applications. Use this section to document all helper functions that fall into this category.
