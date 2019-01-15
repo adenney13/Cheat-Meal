@@ -37,11 +37,17 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 #### MVP 
 
 -Title Component 
-- RestInfo Component
+
+-RestInfo Component
+
 -Paramaters and RestName Components in RestInfo Component
+
 -View Screen Component
+
 -Fetch API Data, use Parameters
+
 -Render view scream with image/applicable food items
+
 -Title component changes when RestName is chosen
 
 #### PostMVP 
