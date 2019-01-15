@@ -33,7 +33,7 @@ https://cloudinary.com/console/media_library/folders/all/Project%202%20Priority%
 
 The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 
-#### SAMPLE.....
+#### 
 #### MVP 
 
 -Title Component 
@@ -58,13 +58,13 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 https://cloudinary.com/console/media_library/folders/all/Project%202%20Architecture
 
-#### [SAMPLE FROM A MAP BASED PROJECT](https://res.cloudinary.com/dvjtpejbw/image/upload/v1540221204/20181022_111216.jpg)
+#### 
 
 ## Functional Components
 
 Based on the initial logic defined in the previous sections try and breakdown the logic further into stateless/stateful components. 
 
-#### SAMPLE.....
+#### 
 | Component | Description | 
 | --- | :---: |  
 | Header | This will render the header include the nav | 
@@ -73,7 +73,7 @@ Based on the initial logic defined in the previous sections try and breakdown th
 
 Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe.
 
-#### SAMPLE.....
+#### 
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: |
 | Build out Components | H | 5hrs| N/A |
