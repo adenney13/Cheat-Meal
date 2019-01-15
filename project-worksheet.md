@@ -8,18 +8,18 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Day 1| Project Description | Incomplete
-|Day 2| Wireframes / Priority Matrix / Functional Components | Incomplete
-|Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Day 4| Pseudocode / actual code | Incomplete
-|Day 5| Initial Clickable Model  | Incomplete
-|Day 6| MVP | Incomplete
-|Day 7| Present | Incomplete
+|Jan 14| Project Description | Incomplete
+|Jan 15| Wireframes / Priority Matrix / Functional Components | Incomplete
+|Jan 15| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|Jan 16| Pseudocode / actual code | Incomplete
+|Jan 16| Initial Clickable Model  | Incomplete
+|Jan 17| MVP | Incomplete
+|Jan 18| Present | Incomplete
 
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+Love fast food? Want to make sure your cheat meal fits in with your diet? Well, look no further! Cheat Meal is the perfect tool for you! Simply select the fast food restaurant of your choice, input your restrictions, if any, and we'll do the rest! The view screen will pop up with delicious pictures of what you CAN eat, not what you CAN'T!
 
 ## Wireframes
 
