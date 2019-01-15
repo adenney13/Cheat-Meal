@@ -65,9 +65,11 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### SAMPLE.....
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs |
-| Total | H | 6hrs| 5hrs | 
+| Build out Components | H | 5hrs| N/A |
+| Build out form in Parameters | H | 2hrs| N/A|
+| Fetch API Data and pass down to components with parameters| H | 5hrs| N/A|
+| Render results on view screen| H |3hrs|N/A|
+| Total | H | 15hrs | N/A | 
 
 ## Helper Functions
 Helper functions should be generic enought that they can be reused in other applications. Use this section to document all helper functions that fall into this category.
