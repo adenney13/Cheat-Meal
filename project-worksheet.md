@@ -81,6 +81,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Fetch API Data and pass down to components with parameters| H | 5hrs| N/A|
 | Render results on view screen| H |3hrs|N/A|
 | Styling | H | 3hrs | N/A |
+| Move info from JSON to API| H | 2hrs| N/A|
 | Total | H | 18hrs | N/A | 
 
 ## Helper Functions
