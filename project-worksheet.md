@@ -10,7 +10,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |---|---| ---|
 |Jan 14| Project Description | Complete
 |Jan 15| Wireframes / Priority Matrix / Functional Components | Complete
-|Jan 15| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|Jan 15| Core Application Structure (HTML, CSS, etc.) | Complete
 |Jan 16| Pseudocode / actual code | Incomplete
 |Jan 16| Initial Clickable Model  | Incomplete
 |Jan 17| MVP | Incomplete
@@ -76,7 +76,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### 
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: |
-| Build out Components | H | 5hrs| N/A |
+| Build out Components | H | 5hrs| 6hrs |
 | Build out form in Parameters | H | 2hrs| N/A|
 | Fetch API Data and pass down to components with parameters| H | 5hrs| N/A|
 | Render results on view screen| H |3hrs|N/A|
