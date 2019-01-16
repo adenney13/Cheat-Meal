@@ -17,19 +17,33 @@ class App extends Component {
 			protein: [],
 			carbs: []
 		}
-		this.handleInput = this.handleInput.bind(this)
+		
 	}
 
-	handleInput (evt){
+	handleInput =(evt)=> {
 		this.setState({
 			title: evt.target.value
 		})
 	}
 
+	calorieLimit =(evt)=> {
+		this.setState({
+			calories: parseInt(evt.target.value) || 0
+		})
+	}
+
+	fatLimit = (evt) => {
+		this.setState({
+			fat: parseInt(evt.target.value) || 0
+		})
+	}
+
   	render() {
-  	
+  		console.log(this.state.calories)
+  	console.log(testData.nutrition.calories)
   
     return (
+
     	<div className="App">
     		<Title
     			className='title' 
@@ -38,10 +52,15 @@ class App extends Component {
     		/>
     		<ViewScreen 
     			className='view-screen' 
+    			calories={this.state.calories}
+    			fat={this.state.fat}
+
     		/>
     		<RestInfo 
     			className='rest-info' 
     			onChange={this.handleInput}
+    			onChange1={this.calorieLimit}
+    			onChange2={this.fatLimit}
     		/>
    		</div>
     )

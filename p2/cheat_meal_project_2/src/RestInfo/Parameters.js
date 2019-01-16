@@ -8,7 +8,8 @@ class Parameters extends Component {
 				<ul>
 					<li><input 
 						type='number' 
-						placeholder='Calories' 
+						placeholder='Calories'
+						onChange={this.props.onChange1} 
 						/>
 					Calories
 					
@@ -16,7 +17,8 @@ class Parameters extends Component {
 					
 					<li><input 
 						type='number' 
-						placeholder='Fat' 
+						placeholder='Fat'
+						onChange={this.props.onChange2} 
 						/>
 					Grams
 					

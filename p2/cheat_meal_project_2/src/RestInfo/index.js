@@ -7,7 +7,11 @@ class RestInfo extends Component {
 		return(
 			<div>
 				<RestName onChange={this.props.onChange}/>
-				<Parameters />
+				<Parameters 
+					onChange1={this.props.onChange1}
+					onChange2={this.props.onChange2}
+
+					/>
 			</div>
 		)
 	}
