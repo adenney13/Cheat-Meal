@@ -12,10 +12,10 @@ class App extends Component {
 
 		this.state = {
 			title: 'Cheat Meal',
-			calories: [],
-			fat: [],
-			protein: [],
-			carbs: []
+			calories: null,
+			fat: null,
+			protein: null,
+			carbs: null
 		}
 		
 	}

@@ -4,7 +4,7 @@ class Parameters extends Component {
 	render() {
 		return(
 			<form>
-				<h2>Input Parameters</h2>
+				<h2>What are your maximums?!</h2>
 				<ul>
 					<li><input 
 						type='number' 

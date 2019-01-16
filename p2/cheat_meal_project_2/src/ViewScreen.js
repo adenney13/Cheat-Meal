@@ -30,15 +30,21 @@ class ViewScreen extends Component {
 			const numCarbs = Number(joinCarbs)
 			console.log(numCarbs)
 
-		const youCanEat = 'You Can Eat'
+		const inputDetected = calories || protein || fat || carbs 
+
+	
 
 		return(
 		<div>
-			<h1>View Screen</h1>
-				<p>{calories < testCalories ? youCanEat : 'TooManyCalories'}</p>
-				<p>{fat < numFat ? youCanEat : 'TooMuchFat'}</p>
-				<p>{protein < numProtein ? youCanEat : 'Too Much Protein'}</p>
-				<p>{carbs < numCarbs ? youCanEat : 'Too Many Carbs'}</p>
+			<h1>View </h1>
+				<p>{inputDetected && (calories ? calories >= testCalories : true) && (fat ? fat >= numFat : true) && (protein ? protein >= numProtein : true) && (carbs ? carbs >= numCarbs : true) ? 
+					<div>
+						<h1>{testData.title}</h1>
+						<img src={testData.images[2]} /> 
+					</div> : 
+					'1'}
+				</p>
+
 				
 			<div className='screen'>
 				
@@ -50,3 +56,8 @@ class ViewScreen extends Component {
 }
 
 export default ViewScreen
+
+
+				// <p>{ ? <img src={testData.images[2]} /> : '2'}</p>
+				// <p>{ ? <img src={testData.images[2]} /> : '3'}</p>
+				// <p>{ ? <img src={testData.images[2]} /> : '4'}</p>
