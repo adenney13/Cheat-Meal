@@ -76,7 +76,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### 
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: |
-| Build out Components | H | 5hrs| N/A |
+| Build out Components | H | 5hrs| 6hrs |
 | Build out form in Parameters | H | 2hrs| N/A|
 | Fetch API Data and pass down to components with parameters| H | 5hrs| N/A|
 | Render results on view screen| H |3hrs|N/A|
