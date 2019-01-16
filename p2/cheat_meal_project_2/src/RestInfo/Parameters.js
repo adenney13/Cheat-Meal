@@ -27,6 +27,7 @@ class Parameters extends Component {
 					<li><input 
 						type='number' 
 						placeholder='Protein' 
+						onChange={this.props.onChange3}
 						/>
 					Grams
 					
@@ -35,6 +36,7 @@ class Parameters extends Component {
 					<li><input 
 						type='number' 
 						placeholder='Carbs' 
+						onChange={this.props.onChange4}
 						/>
 					Grams
 					

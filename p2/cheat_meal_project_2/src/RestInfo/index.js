@@ -10,6 +10,8 @@ class RestInfo extends Component {
 				<Parameters 
 					onChange1={this.props.onChange1}
 					onChange2={this.props.onChange2}
+					onChange3={this.props.onChange3}
+					onChange4={this.props.onChange4}
 
 					/>
 			</div>

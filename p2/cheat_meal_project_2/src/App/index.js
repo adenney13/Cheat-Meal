@@ -28,13 +28,25 @@ class App extends Component {
 
 	calorieLimit =(evt)=> {
 		this.setState({
-			calories: parseInt(evt.target.value) || 0
+			calories: Number(evt.target.value) || 0
 		})
 	}
 
 	fatLimit = (evt) => {
 		this.setState({
-			fat: parseInt(evt.target.value) || 0
+			fat: Number(evt.target.value) || 0
+		})
+	}
+
+	proteinLimit = (evt) => {
+		this.setState({
+			protein: Number(evt.target.value) || 0
+		})
+	}
+
+	carbLimit = (evt) => {
+		this.setState({
+			carbs: Number(evt.target.value) || 0
 		})
 	}
 
@@ -54,6 +66,8 @@ class App extends Component {
     			className='view-screen' 
     			calories={this.state.calories}
     			fat={this.state.fat}
+    			protein={this.state.protein}
+    			carbs={this.state.carbs}
 
     		/>
     		<RestInfo 
@@ -61,6 +75,8 @@ class App extends Component {
     			onChange={this.handleInput}
     			onChange1={this.calorieLimit}
     			onChange2={this.fatLimit}
+    			onChange3={this.proteinLimit}
+    			onChange4={this.carbLimit}
     		/>
    		</div>
     )
