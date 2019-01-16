@@ -1,0 +1,21 @@
+body {
+	overflow: hidden;
+}
+.App {
+	display: flex;
+	width: 100%;
+	min-height: 100vh;
+}
+
+.leftPane {
+	flex: 1;
+	height: 90vh;
+	border: 0.1em solid black;
+}
+
+.rightPane {
+	flex: 2;
+	height: 90vh;
+	border: 0.1em solid black;
+	overflow: auto;
+}

@@ -6,6 +6,8 @@ import RestInfo from '../RestInfo'
 import testData from '../testData.js'
 import axios from 'axios'
 
+
+
 class App extends Component {
 	constructor(props) {
 		super(props)
@@ -15,7 +17,7 @@ class App extends Component {
 			calories: null,
 			fat: null,
 			protein: null,
-			carbs: null
+			carbs: null,
 		}
 		
 	}
@@ -51,33 +53,39 @@ class App extends Component {
 	}
 
   	render() {
-  		console.log(this.state.calories)
-  	console.log(testData.nutrition.calories)
+  		
   
     return (
 
-    	<div className="App">
+    	<div >
     		<Title
-    			className='title' 
-    			title={this.state.title} 
-    			onChange={this.handleInput}
-    		/>
-    		<ViewScreen 
-    			className='view-screen' 
-    			calories={this.state.calories}
-    			fat={this.state.fat}
-    			protein={this.state.protein}
-    			carbs={this.state.carbs}
+	    			className='title' 
+	    			title={this.state.title} 
+	    			onChange={this.handleInput}
+	    		/>
+	    	<div className="App">
+    		<div className="leftPane">
+    			
 
-    		/>
-    		<RestInfo 
-    			className='rest-info' 
-    			onChange={this.handleInput}
-    			onChange1={this.calorieLimit}
-    			onChange2={this.fatLimit}
-    			onChange3={this.proteinLimit}
-    			onChange4={this.carbLimit}
-    		/>
+	    		<RestInfo 
+	    			className='rest-info' 
+	    			onChange={this.handleInput}
+	    			onChange1={this.calorieLimit}
+	    			onChange2={this.fatLimit}
+	    			onChange3={this.proteinLimit}
+	    			onChange4={this.carbLimit}
+	    		/>
+    		</div>
+    		<div className="rightPane">
+    			<ViewScreen 
+	    			className='view-screen' 
+	    			calories={this.state.calories}
+	    			fat={this.state.fat}
+	    			protein={this.state.protein}
+	    			carbs={this.state.carbs}
+	    		/>
+    		</div>
+    		</div>
    		</div>
     )
   }
