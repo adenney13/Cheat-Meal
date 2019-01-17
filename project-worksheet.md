@@ -11,9 +11,9 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |Jan 14| Project Description | Complete
 |Jan 15| Wireframes / Priority Matrix / Functional Components | Complete
 |Jan 15| Core Application Structure (HTML, CSS, etc.) | Complete
-|Jan 16| Pseudocode / actual code | Incomplete
-|Jan 16| Initial Clickable Model  | Incomplete
-|Jan 17| MVP | Incomplete
+|Jan 16| Pseudocode / actual code | Complete
+|Jan 16| Initial Clickable Model  | Complete
+|Jan 17| MVP | Complete
 |Jan 18| Present | Incomplete
 
 
@@ -77,12 +77,12 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: |
 | Build out Components | H | 5hrs| 6hrs |
-| Build out form in Parameters | H | 2hrs| N/A|
+| Build out form in Parameters | H | 2hrs| 2.5hrs|
 | Fetch API Data and pass down to components with parameters| H | 5hrs| N/A|
-| Render results on view screen| H |3hrs|N/A|
+| Render results on view screen| H |3hrs|3hrs|
 | Styling | H | 3hrs | N/A |
 | Move info from JSON to API| H | 2hrs| N/A|
-| Total | H | 20hrs | N/A | 
+| Total | H | 20hrs | 11.5hrs | 
 
 ## Helper Functions
 Helper functions should be generic enought that they can be reused in other applications. Use this section to document all helper functions that fall into this category.
