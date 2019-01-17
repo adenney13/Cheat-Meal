@@ -6,7 +6,7 @@ class ViewScreen extends Component {
 		
 		const diffItems = testData.map((eachItem) => {
 
-			const calories = this.props.calories
+		const calories = this.props.calories
 		const testCalories = eachItem.nutrition.calories
 		
 		const fat = this.props.fat
@@ -33,14 +33,18 @@ class ViewScreen extends Component {
 			const numCarbs = Number(joinCarbs)
 			console.log(numCarbs)
 
-		const inputDetected = calories || protein || fat || carbs 
+		const restTitle = this.props.title
+		const testRestTitle = eachItem.restaurantChain
+
+		const inputDetected = calories || protein || fat || carbs || restTitle
 			return(
 				<div>
 					
-					<p>{inputDetected && (calories ? calories >= testCalories : true) && (fat ? fat >= numFat : true) && (protein ? protein >= numProtein : true) && (carbs ? carbs >= numCarbs : true) ? 
+					<p>{inputDetected && (restTitle ? restTitle === testRestTitle: true) && (calories ? calories >= testCalories : true) && (fat ? fat >= numFat : true) && (protein ? protein >= numProtein : true) && (carbs ? carbs >= numCarbs : true) ? 
 					<div>
 						<h1>{eachItem.title}</h1>
 						<img src={eachItem.images[2]} /> 
+						<p>Restaurant: {eachItem.restaurantChain}</p>
 						<p>Calories: {eachItem.nutrition.calories}</p>
 						<p>Fat: {eachItem.nutrition.fat}</p>
 						<p>Protein: {eachItem.nutrition.protein}</p>

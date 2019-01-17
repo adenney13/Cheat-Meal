@@ -79,6 +79,7 @@ class App extends Component {
     		<div className="rightPane">
     			<ViewScreen 
 	    			className='view-screen' 
+	    			title={this.state.title}
 	    			calories={this.state.calories}
 	    			fat={this.state.fat}
 	    			protein={this.state.protein}

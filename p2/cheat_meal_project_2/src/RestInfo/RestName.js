@@ -12,9 +12,9 @@ class RestName extends Component {
 					<label for='restaurant-names'>Choose Your Restaurant: </label>
 					<select placeholder='Restaurants' onChange={this.props.onChange}>
 						<option value='Choose'>Choose Restaurant</option>
-						<option value='McDonalds'>McDonalds</option>
+						<option value="McDonald's">McDonalds</option>
 						<option value='Burger King'>Burger King</option>
-						<option value='Wendys'>Wendy</option>
+						<option value="Wendy's">Wendy's</option>
 					</select>
 				</form>
 			</div>
