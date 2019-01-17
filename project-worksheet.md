@@ -13,7 +13,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |Jan 15| Core Application Structure (HTML, CSS, etc.) | Complete
 |Jan 16| Pseudocode / actual code | Complete
 |Jan 16| Initial Clickable Model  | Complete
-|Jan 17| MVP | Complete
+|Jan 17| MVP | Incomplete
 |Jan 18| Present | Incomplete
 
 
