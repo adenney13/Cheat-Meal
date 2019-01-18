@@ -1,26 +1,38 @@
 body  {
-	overflow: hidden;
+	font-family: 'Coiny', cursive;
+	background-color: red;
 }
 .App {
 	display: flex;
 	width: 100%;
-	min-height: 100vh;
+	min-height: 60vh;
+
+}
+
+h1 {
+	text-align: center;
+	font-size: 80px;
+	text-decoration: underline;
 }
 
 .leftPane {
 	flex: 1;
-	height: 90vh;
+	height: 80vh;
 	border: 0.1em solid black;
 	padding: 10px;
+	background-color: yellow
 }
 
 .rightPane {
 	flex: 2;
-	height: 90vh;
+	height: 80vh;
 	border: 0.1em solid black;
-	overflow: auto;
+	overflow: scroll;
+	overflow-x: hidden;
 	text-align: center;
-	padding: 10pxw;
+	padding: 10px;
+	background-color: yellow;
+	
 }
 
 img {
@@ -28,3 +40,6 @@ img {
 	max-height: 400px;
 }
 
+.restTitle {
+	font-size: 50px;
+}

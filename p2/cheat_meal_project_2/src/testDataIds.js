@@ -14,7 +14,6 @@ const itemsData = [
 332018,
 323387,
 424592
-
 ]
 
 export default itemsData

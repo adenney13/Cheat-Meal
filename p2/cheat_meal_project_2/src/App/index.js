@@ -3,10 +3,6 @@ import "./style.css";
 import Title from '../Title'
 import ViewScreen from  '../ViewScreen'
 import RestInfo from '../RestInfo'
-import testData from '../testData.js'
-import axios from 'axios'
-
-const $body = document.body
 
 class App extends Component {
 	constructor(props) {
@@ -55,11 +51,6 @@ class App extends Component {
 
   	render() {
   		
-  	// switch(this.state.title) {
-  	// 	case "Burger King":
-  	// 	{$body.style = {{backgroundImage: "url("./images/BK.png")
-  	// }
-  
     return (
 
     	<div >

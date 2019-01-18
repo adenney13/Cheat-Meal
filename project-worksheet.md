@@ -13,7 +13,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |Jan 15| Core Application Structure (HTML, CSS, etc.) | Complete
 |Jan 16| Pseudocode / actual code | Complete
 |Jan 16| Initial Clickable Model  | Complete
-|Jan 17| MVP | Incomplete
+|Jan 17| MVP | Complete
 |Jan 18| Present | Incomplete
 
 
@@ -54,6 +54,11 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 -Multiple restaurants
 
+-Change background with title change
+
+-Rewrite functions for conversion
+
+
 ## React Architectural Design
 
 https://cloudinary.com/console/media_library/folders/all/Project%202%20Architecture
@@ -78,11 +83,11 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | --- | :---: |  :---: | :---: |
 | Build out Components | H | 5hrs| 6hrs |
 | Build out form in Parameters | H | 2hrs| 2.5hrs|
-| Fetch API Data and pass down to components with parameters| H | 5hrs| N/A|
+| Fetch API Data and pass down to components with parameters| H | 5hrs| 2hrs|
 | Render results on view screen| H |3hrs|3hrs|
-| Styling | H | 3hrs | N/A |
-| Move info from JSON to API| H | 2hrs| N/A|
-| Total | H | 20hrs | 11.5hrs | 
+| Styling | H | 3hrs | 2hrs|
+| Move info from JSON to API| H | 2hrs| 2hrs|
+| Total | H | 20hrs | 17.5hrs| 
 
 ## Helper Functions
 Helper functions should be generic enought that they can be reused in other applications. Use this section to document all helper functions that fall into this category.
@@ -108,10 +113,30 @@ Use this section to include a brief code snippet of functionality that you are p
 
 #### SAMPLE.....
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
-```
+This super long ternary was the basis for being able to filter "live". inputDetected is a const that had all of my paramter variables with || separating them. So, this allowed for the restaurant title to be displayed, and used user input to match the corresponding data... if it did, it would return everything that matched all given criteria. If the field was left blank, it was ignored.
+	
+	const inputDetected = calories || protein || fat || carbs || restTitle
+			
+			return(
+				<div key={index}>
+					<p>{inputDetected && (restTitle ? restTitle === testRestTitle: true) && 
+						(calories ? calories >= testCalories : true) && 
+						(fat ? fat >= numFat : true) && 
+						(protein ? protein >= numProtein : true) && 
+						(carbs ? carbs >= numCarbs : true) ? 
+							<div>
+								<h1 className="restTitle">{eachItem.title}</h1>
+								<img src={eachItem.images[2]} /> 
+								<p>Restaurant: {eachItem.restaurantChain}</p>
+								<p>Calories: {eachItem.nutrition.calories}</p>
+								<p>Fat: {eachItem.nutrition.fat}</p>
+								<p>Protein: {eachItem.nutrition.protein}</p>
+								<p>Carbs: {eachItem.nutrition.carbs}</p>
+							</div> : 
+						''}
+					</p>
+				</div>
+			)
 
 ## Change Log
  Use this section to document what changes were made and the reasoning behind those changes.  
@@ -124,6 +149,7 @@ function reverse(string) {
 ## Issues and Resolutions
  Use this section to list of all major issues encountered and their resolution.
 
-#### SAMPLE.....
-**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
-**RESOLUTION**: Missing comma after first object in sources {} object
+#### 
+
+My main issue was with my API...only 50 pull requests and 500 results allowed a day, so I had to figure out a way to build my App without actually using my API. Had to roll up my sleeves and hard code in several objects and then, with help, figure out a way to get my API to pull only a handful of items as opposed to all 300 items from a restaurant at a time. So I got id numbers for specific items I wanted, set them in an array, pushed it through a for-loop, pushed that to an empty array and then worked from those objects. 
+I had to get help for several things I wanted to do, but wasn't 100% sure how. Still not 100% sure if I could replicate these from memory, BUT, everything takes practice so at least I now have a record of how I completed a project.

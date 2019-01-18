@@ -1,6 +1,5 @@
 import React, {Component} from 'react'
 import Axios from 'axios';
-import testData from './testData.js'
 import itemsData from './testDataIds'
 
 const fetchedItems = [];
@@ -27,7 +26,6 @@ class ViewScreen extends Component {
 					items: resp.data,
 				})
 				fetchedItems.push(this.state.items)
-				console.log(fetchedItems, 'items')
 			})
 		}
 	}
@@ -50,7 +48,7 @@ class ViewScreen extends Component {
 			splitFat.pop()
 			const joinFat = splitFat.join('')
 			const numFat = Number(joinFat)
-			console.log(numFat)
+			
 
 		const protein = this.props.protein
 		const testProtein = eachItem.nutrition.protein
@@ -58,7 +56,7 @@ class ViewScreen extends Component {
 			splitProtein.pop()
 			const joinProtein = splitProtein.join('')
 			const numProtein = Number(joinProtein)
-			console.log(numProtein)
+			
 
 		const carbs = this.props.carbs
 		const testCarbs = eachItem.nutrition.carbs
@@ -66,23 +64,23 @@ class ViewScreen extends Component {
 			splitCarbs.pop()
 			const joinCarbs = splitCarbs.join('')
 			const numCarbs = Number(joinCarbs)
-			console.log(numCarbs)
+
 
 		const restTitle = this.props.title
 		const testRestTitle = eachItem.restaurantChain
 
 		const inputDetected = calories || protein || fat || carbs || restTitle
+			
 			return(
 				<div key={index}>
-					
-					<p>{inputDetected && (restTitle ? restTitle === testRestTitle: true) && 
+					<div>{inputDetected && (restTitle ? restTitle === testRestTitle: true) && 
 						(calories ? calories >= testCalories : true) && 
 						(fat ? fat >= numFat : true) && 
 						(protein ? protein >= numProtein : true) && 
 						(carbs ? carbs >= numCarbs : true) ? 
 							<div>
-								<h1>{eachItem.title}</h1>
-								<img src={eachItem.images[2]} /> 
+								<h1 className="restTitle">{eachItem.title}</h1>
+								<img src={eachItem.images[2]} alt="picture of food chosen" /> 
 								<p>Restaurant: {eachItem.restaurantChain}</p>
 								<p>Calories: {eachItem.nutrition.calories}</p>
 								<p>Fat: {eachItem.nutrition.fat}</p>
@@ -90,8 +88,8 @@ class ViewScreen extends Component {
 								<p>Carbs: {eachItem.nutrition.carbs}</p>
 							</div> : 
 						''}
-				</p>
-		</div>
+					</div>
+				</div>
 			)
 		})
 
