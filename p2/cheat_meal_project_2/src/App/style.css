@@ -1,4 +1,4 @@
-body {
+body  {
 	overflow: hidden;
 }
 .App {
@@ -11,6 +11,7 @@ body {
 	flex: 1;
 	height: 90vh;
 	border: 0.1em solid black;
+	padding: 10px;
 }
 
 .rightPane {
@@ -18,4 +19,12 @@ body {
 	height: 90vh;
 	border: 0.1em solid black;
 	overflow: auto;
+	text-align: center;
+	padding: 10pxw;
 }
+
+img {
+	max-width: 400px;
+	max-height: 400px;
+}
+

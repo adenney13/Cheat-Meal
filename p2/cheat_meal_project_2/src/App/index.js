@@ -6,7 +6,7 @@ import RestInfo from '../RestInfo'
 import testData from '../testData.js'
 import axios from 'axios'
 
-
+const $body = document.body
 
 class App extends Component {
 	constructor(props) {
@@ -18,6 +18,7 @@ class App extends Component {
 			fat: null,
 			protein: null,
 			carbs: null,
+	
 		}
 		
 	}
@@ -54,6 +55,10 @@ class App extends Component {
 
   	render() {
   		
+  	// switch(this.state.title) {
+  	// 	case "Burger King":
+  	// 	{$body.style = {{backgroundImage: "url("./images/BK.png")
+  	// }
   
     return (
 
@@ -64,10 +69,9 @@ class App extends Component {
 	    			onChange={this.handleInput}
 	    		/>
 	    	<div className="App">
-    		<div className="leftPane">
+    			<div className="leftPane">
     			
-
-	    		<RestInfo 
+		<RestInfo 
 	    			className='rest-info' 
 	    			onChange={this.handleInput}
 	    			onChange1={this.calorieLimit}
