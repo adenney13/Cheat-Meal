@@ -4,6 +4,7 @@ class RestName extends Component {
 	render(){
 		return(
 			<div>
+		{/*Drop down menu for selecting restaurant, which also changed the title at the top of the screen */}
 				<form>
 					<h2>Drop Down of Restaurant Names</h2>
 					<label>Choose Your Restaurant: </label>

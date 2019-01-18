@@ -19,13 +19,13 @@ class App extends Component {
 		
 	}
 
-	handleInput =(evt)=> {
+	handleInput = (evt)=> {
 		this.setState({
 			title: evt.target.value
 		})
 	}
 
-	calorieLimit =(evt)=> {
+	calorieLimit = (evt)=> {
 		this.setState({
 			calories: Number(evt.target.value) || 0
 		})

@@ -3,6 +3,7 @@ import Axios from 'axios';
 import itemsData from './testDataIds'
 
 const fetchedItems = [];
+
 class ViewScreen extends Component {
 	constructor() {
 		super();
@@ -41,9 +42,12 @@ class ViewScreen extends Component {
 
 		const calories = this.props.calories
 		const testCalories = eachItem.nutrition.calories
-		
+
+//From here down I had to take the last 3 parameters and pop off the "g" and convert them to numbers instead of strings to compare to the user input
+
 		const fat = this.props.fat
 		const testFat = eachItem.nutrition.fat
+		
 		const splitFat = [...testFat]
 			splitFat.pop()
 			const joinFat = splitFat.join('')
@@ -52,6 +56,7 @@ class ViewScreen extends Component {
 
 		const protein = this.props.protein
 		const testProtein = eachItem.nutrition.protein
+		
 		const splitProtein = [...testProtein]
 			splitProtein.pop()
 			const joinProtein = splitProtein.join('')
@@ -60,6 +65,7 @@ class ViewScreen extends Component {
 
 		const carbs = this.props.carbs
 		const testCarbs = eachItem.nutrition.carbs
+		
 		const splitCarbs = [...testCarbs]
 			splitCarbs.pop()
 			const joinCarbs = splitCarbs.join('')
@@ -68,6 +74,8 @@ class ViewScreen extends Component {
 
 		const restTitle = this.props.title
 		const testRestTitle = eachItem.restaurantChain
+
+//Huge ternary here to adjust what was in the view screen according to what user was inputing
 
 		const inputDetected = calories || protein || fat || carbs || restTitle
 			
