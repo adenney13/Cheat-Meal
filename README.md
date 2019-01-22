@@ -3,7 +3,7 @@
 
 Love fast food? Want to make sure your cheat meal fits in with your diet? Well, look no further! Cheat Meal is the perfect tool for you! Simply select the fast food restaurant of your choice, input your restrictions, if any, and we'll do the rest! The view screen will pop up with delicious pictures of what you CAN eat, not what you CAN'T!
 
-## Link
+#### Link to App
 
 http://amazing-mark.surge.sh/
 
