@@ -14,7 +14,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |Jan 16| Pseudocode / actual code | Complete
 |Jan 16| Initial Clickable Model  | Complete
 |Jan 17| MVP | Complete
-|Jan 18| Present | Incomplete
+|Jan 18| Present | Complete
 
 
 ## Project Description
@@ -89,22 +89,9 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Move info from JSON to API| H | 2hrs| 2hrs|
 | Total | H | 20hrs | 17.5hrs| 
 
-## Helper Functions
-Helper functions should be generic enought that they can be reused in other applications. Use this section to document all helper functions that fall into this category.
+## Link to API
 
-#### SAMPLE.....
-| Function | Description | 
-| --- | :---: |  
-| Capitalize | This will capitalize the first letter in a string of text | 
-
-## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project. 
- 
- #### SAMPLE.....
-| Library | What it Does | 
-| --- | :---: |  
-| Bootstrap | Used to help style my application | 
-| Giphy API | Used to get gifs to use | 
+https://rapidapi.com/spoonacular/api/recipe-food-nutrition?endpoint=596be9b1e4b03e024df91f7b
 
 
 ## Code Snippet
